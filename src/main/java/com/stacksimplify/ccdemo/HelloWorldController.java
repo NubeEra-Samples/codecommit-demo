@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-	@GetMapping("/hello")
+	@GetMapping("/welcome")
 	public String sayHello() {
-		return "Manual Approval Stage and Prod Deployment - v1";
+		return "Manual Approval Stage and Prod Deployment - v2";
 	}
 	
 }
